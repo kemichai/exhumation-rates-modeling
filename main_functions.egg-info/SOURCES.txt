@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.py
+main_functions/__init__.py
+main_functions/functions.py
+main_functions.egg-info/PKG-INFO
+main_functions.egg-info/SOURCES.txt
+main_functions.egg-info/dependency_links.txt
+main_functions.egg-info/not-zip-safe
+main_functions.egg-info/top_level.txt
