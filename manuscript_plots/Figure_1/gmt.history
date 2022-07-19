@@ -1,0 +1,10 @@
+# GMT 6 Session common arguments shelf
+BEGIN GMT 6.0.0
+B	x2f1y+l Age (Ma)
+J	M
+JM	M6i
+R	168.65/171.8/-44.5/-42.5
+X	0.0255
+Y	-14
+@L	49
+END

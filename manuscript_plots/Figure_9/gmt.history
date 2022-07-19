@@ -1,0 +1,10 @@
+# GMT 6 Session common arguments shelf
+BEGIN GMT 6.0.0
+B	xy2+lExh. rate (mm/yr)wSnE
+J	X
+JX	X30/5
+R	0/190/0/10
+X	5
+Y	11
+@L	17
+END
