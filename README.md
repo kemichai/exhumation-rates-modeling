@@ -52,11 +52,9 @@ file `run_model.py`.
 To reproduce the manuscript plots please refer to the directory called 
 manuscript plots.
 
-Version
---------------------
-0.0.1
-
 Note
 ------------
 Codes are designed to reproduce our results in the current publication.
 For different applications the codes will need to be modified. 
+
+(WIP)
