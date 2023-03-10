@@ -13,14 +13,13 @@ using a number of boundary conditions and two separate datasets:
 
 Installation
 ------------
-Before we get started, you need to install Anaconda. 
-Anaconda is cross-platform package manager software for scientific data analysis. 
-You can download the installation file based on your operating system and install Anaconda or
-miniconda using the following [link](https://docs.conda.io/en/latest/miniconda.html)
+The codes in this repository are in Python. 
+There are different ways to **install Python**. We recommend using Conda 
+(e.g., Miniconda). You can download the installation file based on your operating system and install 
+Miniconda using the following [link](https://docs.conda.io/en/latest/miniconda.html)
 
 Once you have installed conda, open a terminal (Linux) 
 create a new environment with the following dependencies using:
-Once you have installed conda, create a new environment with the following dependencies using:
 ```bash
 conda config --add channels conda-forge
 conda create -n sa_exhum python=3.7 pip obspy=1.1.0 matplotlib numpy pandas pyproj shapely basemap
@@ -30,7 +29,7 @@ conda install gmt -c conda-forge/label/dev
 
 Clone the repository by typing the following:
 ```bash
-git clone https://github.com/kemichai/exhumation_rates_modeling.git
+git clone https://github.com/kemichai/exhumation-rates-modeling.git
 cd exhumation_rates_modeling
 ```
 To install the functions and make them available everywhere on your machine (within your environment)
@@ -39,6 +38,7 @@ type the following:
 ```bash 
 pip install .
 ```
+That should do it!
 
 How to run the codes
 --------------------
@@ -51,10 +51,12 @@ All the parameters for tuning the model can be found and adjusted within the
 file `run_model.py`.
 
 To reproduce the manuscript plots please refer to the directory called 
-manuscript plots.
+manuscript plots. There you can find also some GMT scripts for making the 
+maps included in the publication. For details on how to get the GMT scripts
+working click [here](docs/gmt_installation.md).
+
 
 Note
 ------------
 Codes are designed to reproduce our results in the current publication.
 For different applications the codes will need to be modified. 
-
